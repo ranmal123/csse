@@ -31,6 +31,23 @@
             android:textAlignment="center"
             android:textColor="@android:color/black"
             />
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/editOTP"
+            android:layout_marginTop="20dp"
+            android:hint="Enter code here"
+            android:textColorHint="@android:color/black"
+            android:text=""
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:met_baseColor="@android:color/black"
+            app:met_floatingLabel="highlight"
+            app:met_maxCharacters="11"
+            app:met_primaryColor="@android:color/black"
+            app:met_singleLineEllipsis="true"
+            />
 
     </LinearLayout>
 
