@@ -1,26 +1,17 @@
 package com.example.csse.csse.Model;
 
 public class User {
-    private String email,fname,dob,nic,password,mobile;
+    private String fname,dob,nic,password,mobile;
 
     public User() {
     }
 
-    public User(String email, String fname, String dob, String nic, String password, String mobile) {
-        this.email = email;
+    public User(String fname, String dob, String nic, String password, String mobile) {
         this.fname = fname;
         this.dob = dob;
         this.nic = nic;
         this.password = password;
         this.mobile = mobile;
-    }
-
-    public String getEmail() {
-        return email;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
     }
 
     public String getFname() {
