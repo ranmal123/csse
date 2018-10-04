@@ -1,8 +1,12 @@
 <resources>
+<<<<<<< HEAD
   <string name="app_name">csse</string>
   <string name="title_activity_start_journey">Map</string>
   <string name="title_activity_cost">Cost</string>
   <string name="title_home">Home</string>
   <string name="title_dashboard">Dashboard</string>
   <string name="title_notifications">Notifications</string>
+=======
+    <string name="app_name">csse</string>
+>>>>>>> 97a6a3f75224b94b70d9bcb25f3d98d8b55f1ab6
 </resources>
