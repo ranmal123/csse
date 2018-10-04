@@ -26,7 +26,7 @@ public class Home extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        toolbar.setTitle("Menu");
+        toolbar.setTitle("Tixora");
         setSupportActionBar(toolbar);
 
 
@@ -45,10 +45,10 @@ public class Home extends AppCompatActivity
         cardNumber = (TextView)headerView.findViewById(R.id.mobile_number);
         cardNumber.setText(Common.currentUser.getMobile());
 
-       /* name = (TextView)findViewById(R.id.name);
+        name = (TextView)findViewById(R.id.name);
         name.setText(Common.currentUser.getFname());
         location = (TextView)findViewById(R.id.location);
-        location.setText("Kandy,Sri lanka");*/
+        location.setText("Kandy,Sri lanka");
 
 
 
@@ -79,9 +79,6 @@ public class Home extends AppCompatActivity
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
-        }
 
         return super.onOptionsItemSelected(item);
     }
